@@ -194,7 +194,7 @@ function checkForUpdates() {
     }
   }
 }
-setInterval(checkForUpdates, 1000);
+setInterval(checkForUpdates, 500);
 
 // const hotkeyCombination = "Escape";
 
