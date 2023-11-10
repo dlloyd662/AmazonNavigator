@@ -47,7 +47,7 @@ function sortByTopReviews() {
     );
 
     function simulateClick(element) {
-      var event = new MouseEvent("click", {
+      let event = new MouseEvent("click", {
         bubbles: true,
         cancelable: true,
         view: window,
@@ -69,8 +69,8 @@ const parentContainer = document.querySelector(
   ".s-search-results.s-result-list"
 );
 function getResults() {
-  var elements = parentContainer.children;
-  var elementsArray = Array.from(elements);
+  let elements = parentContainer.children;
+  let elementsArray = Array.from(elements);
   const filteredElements = elementsArray.filter((element) => {
     return element.getAttribute("data-component-type") == "s-search-result";
   });
@@ -194,7 +194,7 @@ function checkForUpdates() {
     }
   }
 }
-setInterval(checkForUpdates, 500);
+setInterval(checkForUpdates, 1000);
 
 // const hotkeyCombination = "Escape";
 
