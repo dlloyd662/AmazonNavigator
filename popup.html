@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Extension Settings</title>
+  <style>
+    body {
+      min-width: 450px;
+      margin: 10px;
+      font-family: Arial, sans-serif;
+    }
+    .button-container {
+      text-align: center;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <ul>
+<li>
+  <div>
+    <label for="addStarRatingToggle">Add Star Rating to Search Results: </label>
+    <input type="checkbox" id="addStarRatingToggle" >
+  </div>
+</li>
+<li>
+  <div>
+    <label for="removeUnreleasedBooksToggle">Remove unreleased books: </label>
+    <input type="checkbox" id="removeUnreleasedBooksToggle" >
+  </div>
+</li>
+<li>
+  <div>
+    <label for="bestSellersSortToggle">Default to sort by selling items (Amazon option): </label>
+    <input type="checkbox" id="bestSellersSortToggle" >
+  </div>
+</li>
+<li>
+  <div>
+    <label for="sortByReviewCountToggle">Sort search results by number of reviews count (Manually Reordered): </label>
+    <input type="checkbox" id="sortByReviewCountToggle" >
+  </div>
+</li>
+<li>
+  <div>
+    <label for="mostRecentReviewsSortToggle">Default to sort by most recent reviews: </label>
+    <input type="checkbox" id="mostRecentReviewsSortToggle" >
+  </div>
+</li>
+  </ul>
+  <div class="button-container">
+    <button id="saveButton">Save</button>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
