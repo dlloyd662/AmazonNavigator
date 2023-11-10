@@ -1,3 +1,6 @@
+This extension is used to make amazon search more user friendly and allow additional sorting features.
+
+Notes:
 See following for explanation of what different scripts do:
 https://mattfrisbie.substack.com/p/spy-chrome-extension
 
